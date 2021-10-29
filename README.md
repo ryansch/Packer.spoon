@@ -37,3 +37,8 @@ mkdir -p Spoons
 cd Spoons
 gh repo clone ryansch/Packer.spoon
 ```
+
+### TODO
+- [ ] Add update mechanism
+- [ ] Add support for traditional SpoonInstall style spoons
+- [ ] Add specs
