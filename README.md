@@ -28,4 +28,12 @@ packer
 In the above example, we `use` the VimMode spoon and pass in a function to set it up. If the spoon is not installed, it will be installed in the background with `gh` and then the setup function run after the spoon is loaded.
 
 ### Setup
-https://github.com/cli/cli#installation
+Install gh: https://github.com/cli/cli#installation
+
+Then:
+```sh
+cd ~/.hammerspoon # or wherever you have your hammerspoon config
+mkdir -p Spoons
+cd Spoons
+gh repo clone ryansch/Packer.spoon
+```
