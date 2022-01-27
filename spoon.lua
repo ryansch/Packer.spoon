@@ -88,7 +88,7 @@ function Spoon:activateGithub()
     function(exitCode, stdOut, stdErr)
       self:_completeActivateGithub(exitCode, stdOut, stdErr)
     end,
-    { "-l", "-i", "-c", "/usr/local/bin/gh repo clone " .. self.path }
+    { "-l", "-i", "-c", "gh repo clone " .. self.path }
   )
 
   gh
